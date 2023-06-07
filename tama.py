@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
-import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
 
 # Load the machine learning model
 model = pickle.load(open('model.pkl', 'rb'))
