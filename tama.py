@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the machine learning model
-model = pickle.load(open('tama.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Load the StandardScaler
 scaler = pickle.load(open('scale.pkl', 'rb'))
